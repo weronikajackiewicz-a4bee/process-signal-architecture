@@ -1,0 +1,54 @@
+Output/Alarms_01/DWord;-;Brak bezpo?redniego modelu w Level 3 (sygna? diagnostyczny).
+Output/Bubble_01/o_A_Total;bubblegenerator/out_bubgen_a_total_m2;Ca?kowita powierzchnia p?cherzyków gazu.
+Output/Bubble_01/o_kLa;bubblegenerator/out_bubgen_kla_1s;Wspó?czynnik przenikania tlenu (kLa).
+Output/Bubble_01/o_r_Bubble_01;bubblegenerator/out_bubgen_r_bubble_m;Promie? p?cherzyka gazu.
+Output/Mieszanie_01/i_Speed_SP;mixer/out_mixer_rpm_setpoint;Warto?? zadana pr?dko?ci obrotowej mieszad?a.
+Output/Mieszanie_01/o_Speed_Fbk;mixer/out_mixer_model_angular_velocity_rads;Pr?dko?? k?towa (rad/s) wyliczona na podstawie obrotów (RPM).
+Output/Mieszanie_01/o_mix_Level;mixer/out_mixer_mixing_level;Stopie? wymieszania cieczy w zbiorniku.
+Output/Mieszanie_01/o_usedEnergy;mixer/out_mixer_energy_consumption_w;Moc pobierana przez silnik mieszad?a.
+Output/Pompa_01/i_Speed_SP;peristalticpump/out_peristalticpump_speed_rpm;Warto?? zadana pr?dko?ci pompy 1.
+Output/Pompa_01/o_Flow_Fbk;peristalticpump/out_peristalticpump_speed_rpm;Pr?dko?? pompy 1 wyliczona z przep?ywu.
+Output/Pompa_01/o_Speed_Fbk;peristalticpump/out_peristalticpump_speed_rpm;Sprz??enie zwrotne pr?dko?ci pompy 1.
+Output/Pompa_01/o_kodBledu;-;Kod b??du pompy (brak modelu w L3).
+Output/Pompa_01/o_poziom;-;Sygna? pomocniczy poziomu (brak w L3).
+Output/Pompa_02/i_Speed_SP;peristalticpump/out_peristalticpump_speed_rpm;Warto?? zadana pr?dko?ci pompy 2.
+Output/Pompa_02/o_Flow_Fbk;peristalticpump/out_peristalticpump_speed_rpm;Przep?yw pompy 2 mapowany na pr?dko?? RPM w modelu.
+Output/Pompa_02/o_Speed_Fbk;peristalticpump/out_peristalticpump_speed_rpm;Sprz??enie zwrotne pr?dko?ci pompy 2.
+Output/SoftSensorpH_01/i_acid_flowrate;-;Wej?cie dawkowania kwasu (brak bezpo?redniego wyj?cia modelu w L3).
+Output/SoftSensorpH_01/i_base_flowrate;-;Wej?cie dawkowania zasady (brak bezpo?redniego wyj?cia modelu w L3).
+Output/SoftSensorpH_01/o_pH_mod;softsensorph/out_softsensorph_ph_est;G?ówna estymacja pH w nowym silniku.
+Output/TransportCiepla_01/i_T_PV;heatmodel/out_heatmodel_t_1001;Temperatura procesu (wn?trze zbiornika).
+Output/TransportCiepla_01/i_T_SP;tcumodel/out_tcumodel_tinternal_1001;Warto?? zadana temperatury (Set Point).
+Output/TransportCiepla_01/i_To;heatmodel/out_heatmodel_tj_1001;Temperatura p?aszcza (Jacket).
+Output/TransportCiepla_01/o_T_mod;heatmodelregressor/out_heatmodelregressor_y_1001;Wynik regresyjny temperatury (skorygowany).
+Output/TransportCiepla_01/o_Tj_mod;tcumodel/out_tcumodel_tjacket_1001;Modelowa temperatura p?aszcza ch?odz?cego.
+Output/TransportCiepla_01/o_k_est;heatmodelregressor/out_heatmodelregressor_k_1200;Estymowany wspó?czynnik przenikania ciep?a k.
+Output/TransportCiepla_01/o_k_loss_est;heatmodelregressor/out_heatmodelregressor_kloss_1082;Estymowane straty ciep?a do otoczenia.
+Output/TransportO2_01/i_Qset;oxygentransport/out_oxygentransport_qset_dls;Warto?? zadana przep?ywu gazu.
+Output/TransportO2_01/i_compress_P;-;Ci?nienie spr??arki (brak w L3).
+Output/TransportO2_01/i_frac_CO2;oxygentransport/out_oxygentransport_co2pct_pct;U?amek procentowy CO2 w gazie.
+Output/TransportO2_01/i_frac_O2;oxygentransport/out_oxygentransport_dopct_pct;U?amek procentowy O2 w gazie.
+Output/TransportO2_01/o_CO2_mod;oxygentransport/out_oxygentransport_co2_mgl;Model st??enia CO2 (mg/L).
+Output/TransportO2_01/o_DO_mod;oxygentransport/out_oxygentransport_do_mgl;Model tlenu rozpuszczonego (mg/L).
+Output/TransportO2_01/o_DO_mod_CO2;oxygentransport/out_oxygentransport_ph_dls;Wp?yw gazów na pH (model transportu).
+Output/TransportO2_01/o_Flow_mod;oxygentransport/out_oxygentransport_qmodel_m3s;Modelowany przep?yw gazu w bioreaktorze.
+Output/Zbiornik_01/i_elemDepth;-;Geometria - g??boko?? (parametr konfiguracyjny).
+Output/Zbiornik_01/i_elemDiameters;-;Geometria - ?rednica (parametr konfiguracyjny).
+Output/Zbiornik_01/i_medVolume;-;Wej?cie obj?to?ci (wej?cie do modelu L3).
+Output/Zbiornik_01/o_medAir;tankgeometry/out_tankgeometry_airsurfacearea_1023;Powierzchnia kontaktu cieczy z powietrzem.
+Output/Zbiornik_01/o_medCoolant;tankgeometry/out_tankgeometry_coolantsurfacearea_1023;Powierzchnia kontaktu z ch?odziwem.
+Output/Zbiornik_01/o_medLevel;tankgeometry/out_tankgeometry_mediumlevel_1010;Poziom cieczy w zbiorniku.
+-;heatmodel/out_heatmodel_time_1054;Czas systemowy modelu cieplnego.
+-;heatmodelregressor/out_heatmodelregressor_alpha_1082;Parametr regresji cieplnej alpha.
+-;heatmodelregressor/out_heatmodelregressor_error_1001;B??d estymacji modelu regresyjnego.
+-;manualinput/value;R?czne wej?cie danych w systemie Python.
+-;mixer/out_mixer_setpoint_angular_velocity_rads;Przeliczona nastawa pr?dko?ci k?towej.
+-;mqttinputsignal/signal;Sygna? wej?ciowy protoko?u MQTT.
+-;oxygentransport/out_oxygentransport_qmodel_cm3s;Przep?yw gazu w jednostkach cm3/s.
+-;oxygentransport/out_oxygentransport_valvepos_dls;Pozycja zaworu gazu.
+-;peristalticpump/out_peristalticpump_current_time_s;Czas pracy pompy.
+-;peristalticpump/out_peristalticpump_torquemotor_nm;Moment obrotowy silnika pompy.
+-;tcumodel/out_tcumodel_mode_1001;Tryb pracy jednostki TCU.
+-;tcumodel/out_tcumodel_pheater_1001;Moc grza?ki TCU.
+-;tcumodel/out_tcumodel_qcooling_1001;Moc ch?odzenia TCU.
+-;tcumodel/out_tcumodel_time_1054;Czas systemowy TCU.

@@ -1,0 +1,3020 @@
+{
+  "metadata_dictionary": [
+    {
+      "device_uuid": "0d2fa025-787e-406b-baf3-08e502346a8a",
+      "mtp_object": "Sensor5",
+      "mtp_property": "VAHEn",
+      "path_prefix": "devices/0d2fa025-787e-406b-baf3-08e502346a8a/mtp/objects/Sensor5/VAHEn",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/0d2fa025-787e-406b-baf3-08e502346a8a/mtp/objects/Sensor5/VAHEn/VFbk/Actual",
+        "VMan": "devices/0d2fa025-787e-406b-baf3-08e502346a8a/mtp/objects/Sensor5/VAHEn/VMan/Actual",
+        "VOut": "devices/0d2fa025-787e-406b-baf3-08e502346a8a/mtp/objects/Sensor5/VAHEn/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEn",
+      "tag_description_resolved": "PT100 Alarm High",
+      "unit": null,
+      "semantic_var": "temperature_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "0d2fa025-787e-406b-baf3-08e502346a8a",
+      "mtp_object": "Sensor5",
+      "mtp_property": "VALEn",
+      "path_prefix": "devices/0d2fa025-787e-406b-baf3-08e502346a8a/mtp/objects/Sensor5/VALEn",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/0d2fa025-787e-406b-baf3-08e502346a8a/mtp/objects/Sensor5/VALEn/VFbk/Actual",
+        "VMan": "devices/0d2fa025-787e-406b-baf3-08e502346a8a/mtp/objects/Sensor5/VALEn/VMan/Actual",
+        "VOut": "devices/0d2fa025-787e-406b-baf3-08e502346a8a/mtp/objects/Sensor5/VALEn/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEn",
+      "tag_description_resolved": "PT100 Alarm Low",
+      "unit": null,
+      "semantic_var": "temperature_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "0d2fa025-787e-406b-baf3-08e502346a8a",
+      "mtp_object": "Sensor5",
+      "mtp_property": "measurementFirstProbe",
+      "path_prefix": "devices/0d2fa025-787e-406b-baf3-08e502346a8a/mtp/objects/Sensor5/measurementFirstProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/0d2fa025-787e-406b-baf3-08e502346a8a/mtp/objects/Sensor5/measurementFirstProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementFirstProbe",
+      "tag_description_resolved": "PT100",
+      "unit": "1001.0",
+      "semantic_var": "measurement_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "185f554f-b1db-4a60-a733-fe05d4f2a428",
+      "mtp_object": "CoolingStyle",
+      "mtp_property": "faultCode",
+      "path_prefix": "devices/185f554f-b1db-4a60-a733-fe05d4f2a428/mtp/objects/CoolingStyle/faultCode",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/185f554f-b1db-4a60-a733-fe05d4f2a428/mtp/objects/CoolingStyle/faultCode/V/Actual"
+      },
+      "tag_name_resolved": "faultCode",
+      "tag_description_resolved": "Chiller Fault Code",
+      "unit": "0.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "185f554f-b1db-4a60-a733-fe05d4f2a428",
+      "mtp_object": "CoolingStyle",
+      "mtp_property": "flow",
+      "path_prefix": "devices/185f554f-b1db-4a60-a733-fe05d4f2a428/mtp/objects/CoolingStyle/flow",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/185f554f-b1db-4a60-a733-fe05d4f2a428/mtp/objects/CoolingStyle/flow/V/Actual"
+      },
+      "tag_name_resolved": "flow",
+      "tag_description_resolved": "Chiller Flow",
+      "unit": "1352.0",
+      "semantic_var": "flow_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "185f554f-b1db-4a60-a733-fe05d4f2a428",
+      "mtp_object": "CoolingStyle",
+      "mtp_property": "powerToggle",
+      "path_prefix": "devices/185f554f-b1db-4a60-a733-fe05d4f2a428/mtp/objects/CoolingStyle/powerToggle",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/185f554f-b1db-4a60-a733-fe05d4f2a428/mtp/objects/CoolingStyle/powerToggle/VFbk/Actual",
+        "VMan": "devices/185f554f-b1db-4a60-a733-fe05d4f2a428/mtp/objects/CoolingStyle/powerToggle/VMan/Setpoint",
+        "VOut": "devices/185f554f-b1db-4a60-a733-fe05d4f2a428/mtp/objects/CoolingStyle/powerToggle/VOut/Actual"
+      },
+      "tag_name_resolved": "powerToggle",
+      "tag_description_resolved": "Chiller ON/OFF",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "185f554f-b1db-4a60-a733-fe05d4f2a428",
+      "mtp_object": "CoolingStyle",
+      "mtp_property": "temperature",
+      "path_prefix": "devices/185f554f-b1db-4a60-a733-fe05d4f2a428/mtp/objects/CoolingStyle/temperature",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/185f554f-b1db-4a60-a733-fe05d4f2a428/mtp/objects/CoolingStyle/temperature/VFbk/Actual",
+        "VMan": "devices/185f554f-b1db-4a60-a733-fe05d4f2a428/mtp/objects/CoolingStyle/temperature/VMan/Setpoint",
+        "VOut": "devices/185f554f-b1db-4a60-a733-fe05d4f2a428/mtp/objects/CoolingStyle/temperature/VOut/Actual"
+      },
+      "tag_name_resolved": "temperature",
+      "tag_description_resolved": "Chiller temperature",
+      "unit": "1001.0",
+      "semantic_var": "temperature_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "23c5c821-2349-470f-8050-e9c028495916",
+      "mtp_object": "Sensor2",
+      "mtp_property": "VAHEnFirstProbe",
+      "path_prefix": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VAHEnFirstProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VAHEnFirstProbe/VFbk/Actual",
+        "VMan": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VAHEnFirstProbe/VMan/Actual",
+        "VOut": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VAHEnFirstProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnFirstProbe",
+      "tag_description_resolved": "First probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "23c5c821-2349-470f-8050-e9c028495916",
+      "mtp_object": "Sensor2",
+      "mtp_property": "VAHEnSecondProbe",
+      "path_prefix": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VAHEnSecondProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VAHEnSecondProbe/VFbk/Actual",
+        "VMan": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VAHEnSecondProbe/VMan/Actual",
+        "VOut": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VAHEnSecondProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnSecondProbe",
+      "tag_description_resolved": "Second probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "23c5c821-2349-470f-8050-e9c028495916",
+      "mtp_object": "Sensor2",
+      "mtp_property": "VAHEnThirdProbe",
+      "path_prefix": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VAHEnThirdProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VAHEnThirdProbe/VFbk/Actual",
+        "VMan": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VAHEnThirdProbe/VMan/Actual",
+        "VOut": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VAHEnThirdProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnThirdProbe",
+      "tag_description_resolved": "Third probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "23c5c821-2349-470f-8050-e9c028495916",
+      "mtp_object": "Sensor2",
+      "mtp_property": "VALEnFirstProbe",
+      "path_prefix": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VALEnFirstProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VALEnFirstProbe/VFbk/Actual",
+        "VMan": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VALEnFirstProbe/VMan/Actual",
+        "VOut": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VALEnFirstProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnFirstProbe",
+      "tag_description_resolved": "First probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "23c5c821-2349-470f-8050-e9c028495916",
+      "mtp_object": "Sensor2",
+      "mtp_property": "VALEnSecondProbe",
+      "path_prefix": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VALEnSecondProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VALEnSecondProbe/VFbk/Actual",
+        "VMan": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VALEnSecondProbe/VMan/Actual",
+        "VOut": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VALEnSecondProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnSecondProbe",
+      "tag_description_resolved": "Second probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "23c5c821-2349-470f-8050-e9c028495916",
+      "mtp_object": "Sensor2",
+      "mtp_property": "VALEnThirdProbe",
+      "path_prefix": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VALEnThirdProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VALEnThirdProbe/VFbk/Actual",
+        "VMan": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VALEnThirdProbe/VMan/Actual",
+        "VOut": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/VALEnThirdProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnThirdProbe",
+      "tag_description_resolved": "Third probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "23c5c821-2349-470f-8050-e9c028495916",
+      "mtp_object": "Sensor2",
+      "mtp_property": "measurementFirstProbe",
+      "path_prefix": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/measurementFirstProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/measurementFirstProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementFirstProbe",
+      "tag_description_resolved": "Probe - not connected",
+      "unit": "0.0",
+      "semantic_var": "measurement_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "23c5c821-2349-470f-8050-e9c028495916",
+      "mtp_object": "Sensor2",
+      "mtp_property": "measurementSecondProbe",
+      "path_prefix": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/measurementSecondProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/measurementSecondProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementSecondProbe",
+      "tag_description_resolved": "Probe - not connected",
+      "unit": "0.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "23c5c821-2349-470f-8050-e9c028495916",
+      "mtp_object": "Sensor2",
+      "mtp_property": "measurementThirdProbe",
+      "path_prefix": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/measurementThirdProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/measurementThirdProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementThirdProbe",
+      "tag_description_resolved": "Probe - not connected",
+      "unit": "0.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "23c5c821-2349-470f-8050-e9c028495916",
+      "mtp_object": "Sensor2",
+      "mtp_property": "qualityIndicator",
+      "path_prefix": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/qualityIndicator",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/23c5c821-2349-470f-8050-e9c028495916/mtp/objects/Sensor2/qualityIndicator/V/Actual"
+      },
+      "tag_name_resolved": "qualityIndicator",
+      "tag_description_resolved": "Quality Indicator",
+      "unit": "1342.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "2757a0c4-af81-4273-87fb-2b0d87c5da34",
+      "mtp_object": "Sensor1",
+      "mtp_property": "VAHEnFirstProbe",
+      "path_prefix": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VAHEnFirstProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VAHEnFirstProbe/VFbk/Actual",
+        "VMan": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VAHEnFirstProbe/VMan/Actual",
+        "VOut": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VAHEnFirstProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnFirstProbe",
+      "tag_description_resolved": "First probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "2757a0c4-af81-4273-87fb-2b0d87c5da34",
+      "mtp_object": "Sensor1",
+      "mtp_property": "VAHEnSecondProbe",
+      "path_prefix": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VAHEnSecondProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VAHEnSecondProbe/VFbk/Actual",
+        "VMan": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VAHEnSecondProbe/VMan/Actual",
+        "VOut": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VAHEnSecondProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnSecondProbe",
+      "tag_description_resolved": "Second probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "2757a0c4-af81-4273-87fb-2b0d87c5da34",
+      "mtp_object": "Sensor1",
+      "mtp_property": "VAHEnThirdProbe",
+      "path_prefix": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VAHEnThirdProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VAHEnThirdProbe/VFbk/Actual",
+        "VMan": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VAHEnThirdProbe/VMan/Actual",
+        "VOut": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VAHEnThirdProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnThirdProbe",
+      "tag_description_resolved": "Third probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "2757a0c4-af81-4273-87fb-2b0d87c5da34",
+      "mtp_object": "Sensor1",
+      "mtp_property": "VALEnFirstProbe",
+      "path_prefix": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VALEnFirstProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VALEnFirstProbe/VFbk/Actual",
+        "VMan": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VALEnFirstProbe/VMan/Actual",
+        "VOut": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VALEnFirstProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnFirstProbe",
+      "tag_description_resolved": "First probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "2757a0c4-af81-4273-87fb-2b0d87c5da34",
+      "mtp_object": "Sensor1",
+      "mtp_property": "VALEnSecondProbe",
+      "path_prefix": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VALEnSecondProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VALEnSecondProbe/VFbk/Actual",
+        "VMan": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VALEnSecondProbe/VMan/Actual",
+        "VOut": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VALEnSecondProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnSecondProbe",
+      "tag_description_resolved": "Second probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "2757a0c4-af81-4273-87fb-2b0d87c5da34",
+      "mtp_object": "Sensor1",
+      "mtp_property": "VALEnThirdProbe",
+      "path_prefix": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VALEnThirdProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VALEnThirdProbe/VFbk/Actual",
+        "VMan": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VALEnThirdProbe/VMan/Actual",
+        "VOut": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/VALEnThirdProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnThirdProbe",
+      "tag_description_resolved": "Third probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "2757a0c4-af81-4273-87fb-2b0d87c5da34",
+      "mtp_object": "Sensor1",
+      "mtp_property": "measurementFirstProbe",
+      "path_prefix": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/measurementFirstProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/measurementFirstProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementFirstProbe",
+      "tag_description_resolved": "Probe - not connected",
+      "unit": "0.0",
+      "semantic_var": "measurement_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "2757a0c4-af81-4273-87fb-2b0d87c5da34",
+      "mtp_object": "Sensor1",
+      "mtp_property": "measurementSecondProbe",
+      "path_prefix": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/measurementSecondProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/measurementSecondProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementSecondProbe",
+      "tag_description_resolved": "Probe - not connected",
+      "unit": "0.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "2757a0c4-af81-4273-87fb-2b0d87c5da34",
+      "mtp_object": "Sensor1",
+      "mtp_property": "measurementThirdProbe",
+      "path_prefix": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/measurementThirdProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/measurementThirdProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementThirdProbe",
+      "tag_description_resolved": "Probe - not connected",
+      "unit": "0.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "2757a0c4-af81-4273-87fb-2b0d87c5da34",
+      "mtp_object": "Sensor1",
+      "mtp_property": "moduleIdentificationTrigger",
+      "path_prefix": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/moduleIdentificationTrigger",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/moduleIdentificationTrigger/VFbk/Actual",
+        "VMan": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/moduleIdentificationTrigger/VMan/Actual",
+        "VOut": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/moduleIdentificationTrigger/VOut/Actual"
+      },
+      "tag_name_resolved": "moduleIdentificationTrigger",
+      "tag_description_resolved": "Module Identification Trigger",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "2757a0c4-af81-4273-87fb-2b0d87c5da34",
+      "mtp_object": "Sensor1",
+      "mtp_property": "qualityIndicator",
+      "path_prefix": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/qualityIndicator",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/2757a0c4-af81-4273-87fb-2b0d87c5da34/mtp/objects/Sensor1/qualityIndicator/V/Actual"
+      },
+      "tag_name_resolved": "qualityIndicator",
+      "tag_description_resolved": "Quality Indicator",
+      "unit": "1342.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "289ca36e-495e-445a-ae52-203a431051f5",
+      "mtp_object": "Sparger2",
+      "mtp_property": "gasTemp",
+      "path_prefix": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/gasTemp",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/gasTemp/V/Actual"
+      },
+      "tag_name_resolved": "gasTemp",
+      "tag_description_resolved": "Gas temperature",
+      "unit": "1001.0",
+      "semantic_var": "gas_temperature",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "289ca36e-495e-445a-ae52-203a431051f5",
+      "mtp_object": "Sparger2",
+      "mtp_property": "interlockSwitch",
+      "path_prefix": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/interlockSwitch",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/interlockSwitch/VFbk/Actual",
+        "VMan": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/interlockSwitch/VMan/Setpoint",
+        "VOut": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/interlockSwitch/VOut/Actual"
+      },
+      "tag_name_resolved": "interlockSwitch",
+      "tag_description_resolved": "Interlock switch",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "289ca36e-495e-445a-ae52-203a431051f5",
+      "mtp_object": "Sparger2",
+      "mtp_property": "moduleIdentificationTrigger",
+      "path_prefix": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/moduleIdentificationTrigger",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/moduleIdentificationTrigger/VFbk/Actual",
+        "VMan": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/moduleIdentificationTrigger/VMan/Actual",
+        "VOut": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/moduleIdentificationTrigger/VOut/Actual"
+      },
+      "tag_name_resolved": "moduleIdentificationTrigger",
+      "tag_description_resolved": "Module Identification Trigger",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "289ca36e-495e-445a-ae52-203a431051f5",
+      "mtp_object": "Sparger2",
+      "mtp_property": "protectReset",
+      "path_prefix": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/protectReset",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/protectReset/VFbk/Actual",
+        "VMan": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/protectReset/VMan/Actual",
+        "VOut": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/protectReset/VOut/Actual"
+      },
+      "tag_name_resolved": "protectReset",
+      "tag_description_resolved": "Protect reset",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "289ca36e-495e-445a-ae52-203a431051f5",
+      "mtp_object": "Sparger2",
+      "mtp_property": "resetTotalizer",
+      "path_prefix": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/resetTotalizer",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/resetTotalizer/VFbk/Actual",
+        "VMan": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/resetTotalizer/VMan/Actual",
+        "VOut": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/resetTotalizer/VOut/Actual"
+      },
+      "tag_name_resolved": "resetTotalizer",
+      "tag_description_resolved": "Reset totalizer",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "289ca36e-495e-445a-ae52-203a431051f5",
+      "mtp_object": "Sparger2",
+      "mtp_property": "safeposEnable",
+      "path_prefix": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/safeposEnable",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/safeposEnable/VFbk/Actual",
+        "VMan": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/safeposEnable/VMan/Actual",
+        "VOut": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/safeposEnable/VOut/Actual"
+      },
+      "tag_name_resolved": "safeposEnable",
+      "tag_description_resolved": "Safe position enable",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "289ca36e-495e-445a-ae52-203a431051f5",
+      "mtp_object": "Sparger2",
+      "mtp_property": "safeposSwitch",
+      "path_prefix": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/safeposSwitch",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/safeposSwitch/VFbk/Actual",
+        "VMan": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/safeposSwitch/VMan/Actual",
+        "VOut": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/safeposSwitch/VOut/Actual"
+      },
+      "tag_name_resolved": "safeposSwitch",
+      "tag_description_resolved": "Safe position switch",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "289ca36e-495e-445a-ae52-203a431051f5",
+      "mtp_object": "Sparger2",
+      "mtp_property": "tare",
+      "path_prefix": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/tare",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/tare/VFbk/Actual",
+        "VMan": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/tare/VMan/Actual",
+        "VOut": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/tare/VOut/Actual"
+      },
+      "tag_name_resolved": "tare",
+      "tag_description_resolved": "Tare",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "289ca36e-495e-445a-ae52-203a431051f5",
+      "mtp_object": "Sparger2",
+      "mtp_property": "totalizer",
+      "path_prefix": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/totalizer",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/totalizer/V/Actual"
+      },
+      "tag_name_resolved": "totalizer",
+      "tag_description_resolved": "Totalized flow value",
+      "unit": "1036.0",
+      "semantic_var": "totalized_flow",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "289ca36e-495e-445a-ae52-203a431051f5",
+      "mtp_object": "Sparger2",
+      "mtp_property": "userGasType",
+      "path_prefix": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/userGasType",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/userGasType/VFbk/Actual",
+        "VMan": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/userGasType/VMan/Actual",
+        "VOut": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/userGasType/VOut/Actual"
+      },
+      "tag_name_resolved": "userGasType",
+      "tag_description_resolved": "Change new gas type",
+      "unit": "0.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "289ca36e-495e-445a-ae52-203a431051f5",
+      "mtp_object": "Sparger2",
+      "mtp_property": "valveDrive",
+      "path_prefix": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/valveDrive",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/289ca36e-495e-445a-ae52-203a431051f5/mtp/objects/Sparger2/valveDrive/V/Actual"
+      },
+      "tag_name_resolved": "valveDrive",
+      "tag_description_resolved": "Valve opening %",
+      "unit": "1342.0",
+      "semantic_var": "valve_opening",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "616ad07e-52e7-4293-aba1-2848073e1c33",
+      "mtp_object": "Pump",
+      "mtp_property": "coefficient",
+      "path_prefix": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/coefficient",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/coefficient/VFbk/Actual",
+        "VMan": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/coefficient/VMan/Actual",
+        "VOut": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/coefficient/VOut/Actual"
+      },
+      "tag_name_resolved": "coefficient",
+      "tag_description_resolved": "Flow Coefficient",
+      "unit": "1944.0",
+      "semantic_var": "flow_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "616ad07e-52e7-4293-aba1-2848073e1c33",
+      "mtp_object": "Pump",
+      "mtp_property": "current",
+      "path_prefix": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/current",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/current/V/Actual"
+      },
+      "tag_name_resolved": "current",
+      "tag_description_resolved": "Current Sensor",
+      "unit": "1211.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "616ad07e-52e7-4293-aba1-2848073e1c33",
+      "mtp_object": "Pump",
+      "mtp_property": "flow",
+      "path_prefix": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/flow",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/flow/VFbk/Actual",
+        "VMan": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/flow/VMan/Actual",
+        "VOut": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/flow/VOut/Actual"
+      },
+      "tag_name_resolved": "flow",
+      "tag_description_resolved": "Flow Rate (mL/min)",
+      "unit": "1563.0",
+      "semantic_var": "flow_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "616ad07e-52e7-4293-aba1-2848073e1c33",
+      "mtp_object": "Pump",
+      "mtp_property": "interlockSwitch",
+      "path_prefix": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/interlockSwitch",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/interlockSwitch/VFbk/Actual",
+        "VMan": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/interlockSwitch/VMan/Setpoint",
+        "VOut": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/interlockSwitch/VOut/Actual"
+      },
+      "tag_name_resolved": "interlockSwitch",
+      "tag_description_resolved": "Interlock Switch",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "616ad07e-52e7-4293-aba1-2848073e1c33",
+      "mtp_object": "Pump",
+      "mtp_property": "moduleIdentificationTrigger",
+      "path_prefix": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/moduleIdentificationTrigger",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/moduleIdentificationTrigger/VFbk/Actual",
+        "VMan": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/moduleIdentificationTrigger/VMan/Actual",
+        "VOut": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/moduleIdentificationTrigger/VOut/Actual"
+      },
+      "tag_name_resolved": "moduleIdentificationTrigger",
+      "tag_description_resolved": "Module Identification Trigger",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "616ad07e-52e7-4293-aba1-2848073e1c33",
+      "mtp_object": "Pump",
+      "mtp_property": "protectReset",
+      "path_prefix": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/protectReset",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/protectReset/VFbk/Actual",
+        "VMan": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/protectReset/VMan/Actual",
+        "VOut": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/protectReset/VOut/Actual"
+      },
+      "tag_name_resolved": "protectReset",
+      "tag_description_resolved": "Protection Reset",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "616ad07e-52e7-4293-aba1-2848073e1c33",
+      "mtp_object": "Pump",
+      "mtp_property": "rpmHighEn",
+      "path_prefix": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/rpmHighEn",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/rpmHighEn/VFbk/Actual",
+        "VMan": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/rpmHighEn/VMan/Actual",
+        "VOut": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/rpmHighEn/VOut/Actual"
+      },
+      "tag_name_resolved": "rpmHighEn",
+      "tag_description_resolved": "Pump RPM Alarm High",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "616ad07e-52e7-4293-aba1-2848073e1c33",
+      "mtp_object": "Pump",
+      "mtp_property": "rpmLowEn",
+      "path_prefix": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/rpmLowEn",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/rpmLowEn/VFbk/Actual",
+        "VMan": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/rpmLowEn/VMan/Actual",
+        "VOut": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/rpmLowEn/VOut/Actual"
+      },
+      "tag_name_resolved": "rpmLowEn",
+      "tag_description_resolved": "Pump RPM Alarm Low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "616ad07e-52e7-4293-aba1-2848073e1c33",
+      "mtp_object": "Pump",
+      "mtp_property": "safePosSwitch",
+      "path_prefix": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/safePosSwitch",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/safePosSwitch/VFbk/Actual",
+        "VMan": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/safePosSwitch/VMan/Actual",
+        "VOut": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/safePosSwitch/VOut/Actual"
+      },
+      "tag_name_resolved": "safePosSwitch",
+      "tag_description_resolved": "Safe Position Switch",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "616ad07e-52e7-4293-aba1-2848073e1c33",
+      "mtp_object": "Pump",
+      "mtp_property": "temperature",
+      "path_prefix": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/temperature",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/temperature/V/Actual"
+      },
+      "tag_name_resolved": "temperature",
+      "tag_description_resolved": "Temperature Sensor",
+      "unit": "1001.0",
+      "semantic_var": "temperature_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "616ad07e-52e7-4293-aba1-2848073e1c33",
+      "mtp_object": "Pump",
+      "mtp_property": "totaliser",
+      "path_prefix": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/totaliser",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/totaliser/V/Actual"
+      },
+      "tag_name_resolved": "totaliser",
+      "tag_description_resolved": "Total Volume",
+      "unit": "1040.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "616ad07e-52e7-4293-aba1-2848073e1c33",
+      "mtp_object": "Pump",
+      "mtp_property": "totaliserReset",
+      "path_prefix": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/totaliserReset",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/totaliserReset/VFbk/Actual",
+        "VMan": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/totaliserReset/VMan/Actual",
+        "VOut": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/totaliserReset/VOut/Actual"
+      },
+      "tag_name_resolved": "totaliserReset",
+      "tag_description_resolved": "Reset Total Volume",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "616ad07e-52e7-4293-aba1-2848073e1c33",
+      "mtp_object": "Pump",
+      "mtp_property": "tubeDescription",
+      "path_prefix": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/tubeDescription",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/tubeDescription/VFbk/Actual",
+        "VMan": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/tubeDescription/VMan/Actual",
+        "VOut": "devices/616ad07e-52e7-4293-aba1-2848073e1c33/mtp/objects/Pump/tubeDescription/VOut/Actual"
+      },
+      "tag_name_resolved": "tubeDescription",
+      "tag_description_resolved": "Tube Description",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "ae8f16e0-b975-43df-9fd7-cba7530be7c9",
+      "mtp_object": "Pump",
+      "mtp_property": "coefficient",
+      "path_prefix": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/coefficient",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/coefficient/VFbk/Actual",
+        "VMan": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/coefficient/VMan/Actual",
+        "VOut": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/coefficient/VOut/Actual"
+      },
+      "tag_name_resolved": "coefficient",
+      "tag_description_resolved": "Flow Coefficient",
+      "unit": "1944.0",
+      "semantic_var": "flow_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "ae8f16e0-b975-43df-9fd7-cba7530be7c9",
+      "mtp_object": "Pump",
+      "mtp_property": "current",
+      "path_prefix": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/current",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/current/V/Actual"
+      },
+      "tag_name_resolved": "current",
+      "tag_description_resolved": "Current Sensor",
+      "unit": "1211.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "ae8f16e0-b975-43df-9fd7-cba7530be7c9",
+      "mtp_object": "Pump",
+      "mtp_property": "flow",
+      "path_prefix": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/flow",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/flow/VFbk/Actual",
+        "VMan": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/flow/VMan/Actual",
+        "VOut": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/flow/VOut/Actual"
+      },
+      "tag_name_resolved": "flow",
+      "tag_description_resolved": "Flow Rate (mL/min)",
+      "unit": "1563.0",
+      "semantic_var": "flow_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "ae8f16e0-b975-43df-9fd7-cba7530be7c9",
+      "mtp_object": "Pump",
+      "mtp_property": "interlockSwitch",
+      "path_prefix": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/interlockSwitch",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/interlockSwitch/VFbk/Actual",
+        "VMan": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/interlockSwitch/VMan/Setpoint",
+        "VOut": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/interlockSwitch/VOut/Actual"
+      },
+      "tag_name_resolved": "interlockSwitch",
+      "tag_description_resolved": "Interlock Switch",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "ae8f16e0-b975-43df-9fd7-cba7530be7c9",
+      "mtp_object": "Pump",
+      "mtp_property": "moduleIdentificationTrigger",
+      "path_prefix": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/moduleIdentificationTrigger",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/moduleIdentificationTrigger/VFbk/Actual",
+        "VMan": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/moduleIdentificationTrigger/VMan/Actual",
+        "VOut": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/moduleIdentificationTrigger/VOut/Actual"
+      },
+      "tag_name_resolved": "moduleIdentificationTrigger",
+      "tag_description_resolved": "Module Identification Trigger",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "ae8f16e0-b975-43df-9fd7-cba7530be7c9",
+      "mtp_object": "Pump",
+      "mtp_property": "protectReset",
+      "path_prefix": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/protectReset",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/protectReset/VFbk/Actual",
+        "VMan": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/protectReset/VMan/Actual",
+        "VOut": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/protectReset/VOut/Actual"
+      },
+      "tag_name_resolved": "protectReset",
+      "tag_description_resolved": "Protection Reset",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "ae8f16e0-b975-43df-9fd7-cba7530be7c9",
+      "mtp_object": "Pump",
+      "mtp_property": "rpmHighEn",
+      "path_prefix": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/rpmHighEn",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/rpmHighEn/VFbk/Actual",
+        "VMan": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/rpmHighEn/VMan/Actual",
+        "VOut": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/rpmHighEn/VOut/Actual"
+      },
+      "tag_name_resolved": "rpmHighEn",
+      "tag_description_resolved": "Pump RPM Alarm High",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "ae8f16e0-b975-43df-9fd7-cba7530be7c9",
+      "mtp_object": "Pump",
+      "mtp_property": "rpmLowEn",
+      "path_prefix": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/rpmLowEn",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/rpmLowEn/VFbk/Actual",
+        "VMan": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/rpmLowEn/VMan/Actual",
+        "VOut": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/rpmLowEn/VOut/Actual"
+      },
+      "tag_name_resolved": "rpmLowEn",
+      "tag_description_resolved": "Pump RPM Alarm Low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "ae8f16e0-b975-43df-9fd7-cba7530be7c9",
+      "mtp_object": "Pump",
+      "mtp_property": "safePosSwitch",
+      "path_prefix": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/safePosSwitch",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/safePosSwitch/VFbk/Actual",
+        "VMan": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/safePosSwitch/VMan/Actual",
+        "VOut": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/safePosSwitch/VOut/Actual"
+      },
+      "tag_name_resolved": "safePosSwitch",
+      "tag_description_resolved": "Safe Position Switch",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "ae8f16e0-b975-43df-9fd7-cba7530be7c9",
+      "mtp_object": "Pump",
+      "mtp_property": "temperature",
+      "path_prefix": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/temperature",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/temperature/V/Actual"
+      },
+      "tag_name_resolved": "temperature",
+      "tag_description_resolved": "Temperature Sensor",
+      "unit": "1001.0",
+      "semantic_var": "temperature_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "ae8f16e0-b975-43df-9fd7-cba7530be7c9",
+      "mtp_object": "Pump",
+      "mtp_property": "totaliser",
+      "path_prefix": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/totaliser",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/totaliser/V/Actual"
+      },
+      "tag_name_resolved": "totaliser",
+      "tag_description_resolved": "Total Volume",
+      "unit": "1040.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "ae8f16e0-b975-43df-9fd7-cba7530be7c9",
+      "mtp_object": "Pump",
+      "mtp_property": "totaliserReset",
+      "path_prefix": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/totaliserReset",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/totaliserReset/VFbk/Actual",
+        "VMan": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/totaliserReset/VMan/Actual",
+        "VOut": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/totaliserReset/VOut/Actual"
+      },
+      "tag_name_resolved": "totaliserReset",
+      "tag_description_resolved": "Reset Total Volume",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "ae8f16e0-b975-43df-9fd7-cba7530be7c9",
+      "mtp_object": "Pump",
+      "mtp_property": "tubeDescription",
+      "path_prefix": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/tubeDescription",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/tubeDescription/VFbk/Actual",
+        "VMan": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/tubeDescription/VMan/Actual",
+        "VOut": "devices/ae8f16e0-b975-43df-9fd7-cba7530be7c9/mtp/objects/Pump/tubeDescription/VOut/Actual"
+      },
+      "tag_name_resolved": "tubeDescription",
+      "tag_description_resolved": "Tube Description",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "b1a6d61d-c7a3-4cff-a509-74823026733c",
+      "mtp_object": "Sensor5",
+      "mtp_property": "VAHEn",
+      "path_prefix": "devices/b1a6d61d-c7a3-4cff-a509-74823026733c/mtp/objects/Sensor5/VAHEn",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/b1a6d61d-c7a3-4cff-a509-74823026733c/mtp/objects/Sensor5/VAHEn/VFbk/Actual",
+        "VMan": "devices/b1a6d61d-c7a3-4cff-a509-74823026733c/mtp/objects/Sensor5/VAHEn/VMan/Actual",
+        "VOut": "devices/b1a6d61d-c7a3-4cff-a509-74823026733c/mtp/objects/Sensor5/VAHEn/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEn",
+      "tag_description_resolved": "PT100 Alarm High",
+      "unit": null,
+      "semantic_var": "temperature_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "b1a6d61d-c7a3-4cff-a509-74823026733c",
+      "mtp_object": "Sensor5",
+      "mtp_property": "VALEn",
+      "path_prefix": "devices/b1a6d61d-c7a3-4cff-a509-74823026733c/mtp/objects/Sensor5/VALEn",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/b1a6d61d-c7a3-4cff-a509-74823026733c/mtp/objects/Sensor5/VALEn/VFbk/Actual",
+        "VMan": "devices/b1a6d61d-c7a3-4cff-a509-74823026733c/mtp/objects/Sensor5/VALEn/VMan/Actual",
+        "VOut": "devices/b1a6d61d-c7a3-4cff-a509-74823026733c/mtp/objects/Sensor5/VALEn/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEn",
+      "tag_description_resolved": "PT100 Alarm Low",
+      "unit": null,
+      "semantic_var": "temperature_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "b1a6d61d-c7a3-4cff-a509-74823026733c",
+      "mtp_object": "Sensor5",
+      "mtp_property": "measurementFirstProbe",
+      "path_prefix": "devices/b1a6d61d-c7a3-4cff-a509-74823026733c/mtp/objects/Sensor5/measurementFirstProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/b1a6d61d-c7a3-4cff-a509-74823026733c/mtp/objects/Sensor5/measurementFirstProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementFirstProbe",
+      "tag_description_resolved": "PT100",
+      "unit": "1001.0",
+      "semantic_var": "measurement_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "b1a6d61d-c7a3-4cff-a509-74823026733c",
+      "mtp_object": "Sensor5",
+      "mtp_property": "moduleIdentificationTrigger",
+      "path_prefix": "devices/b1a6d61d-c7a3-4cff-a509-74823026733c/mtp/objects/Sensor5/moduleIdentificationTrigger",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/b1a6d61d-c7a3-4cff-a509-74823026733c/mtp/objects/Sensor5/moduleIdentificationTrigger/VFbk/Actual",
+        "VMan": "devices/b1a6d61d-c7a3-4cff-a509-74823026733c/mtp/objects/Sensor5/moduleIdentificationTrigger/VMan/Actual",
+        "VOut": "devices/b1a6d61d-c7a3-4cff-a509-74823026733c/mtp/objects/Sensor5/moduleIdentificationTrigger/VOut/Actual"
+      },
+      "tag_name_resolved": "moduleIdentificationTrigger",
+      "tag_description_resolved": "Module Identification Trigger",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "c6444729-56d5-4510-a365-f7dabcb2069c",
+      "mtp_object": "Sensor6",
+      "mtp_property": "VAHEnFirstProbe",
+      "path_prefix": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VAHEnFirstProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VAHEnFirstProbe/VFbk/Actual",
+        "VMan": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VAHEnFirstProbe/VMan/Actual",
+        "VOut": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VAHEnFirstProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnFirstProbe",
+      "tag_description_resolved": "First probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "c6444729-56d5-4510-a365-f7dabcb2069c",
+      "mtp_object": "Sensor6",
+      "mtp_property": "VAHEnSecondProbe",
+      "path_prefix": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VAHEnSecondProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VAHEnSecondProbe/VFbk/Actual",
+        "VMan": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VAHEnSecondProbe/VMan/Actual",
+        "VOut": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VAHEnSecondProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnSecondProbe",
+      "tag_description_resolved": "Second probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "c6444729-56d5-4510-a365-f7dabcb2069c",
+      "mtp_object": "Sensor6",
+      "mtp_property": "VAHEnThirdProbe",
+      "path_prefix": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VAHEnThirdProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VAHEnThirdProbe/VFbk/Actual",
+        "VMan": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VAHEnThirdProbe/VMan/Actual",
+        "VOut": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VAHEnThirdProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnThirdProbe",
+      "tag_description_resolved": "Third probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "c6444729-56d5-4510-a365-f7dabcb2069c",
+      "mtp_object": "Sensor6",
+      "mtp_property": "VALEnFirstProbe",
+      "path_prefix": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VALEnFirstProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VALEnFirstProbe/VFbk/Actual",
+        "VMan": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VALEnFirstProbe/VMan/Actual",
+        "VOut": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VALEnFirstProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnFirstProbe",
+      "tag_description_resolved": "First probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "c6444729-56d5-4510-a365-f7dabcb2069c",
+      "mtp_object": "Sensor6",
+      "mtp_property": "VALEnSecondProbe",
+      "path_prefix": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VALEnSecondProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VALEnSecondProbe/VFbk/Actual",
+        "VMan": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VALEnSecondProbe/VMan/Actual",
+        "VOut": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VALEnSecondProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnSecondProbe",
+      "tag_description_resolved": "Second probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "c6444729-56d5-4510-a365-f7dabcb2069c",
+      "mtp_object": "Sensor6",
+      "mtp_property": "VALEnThirdProbe",
+      "path_prefix": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VALEnThirdProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VALEnThirdProbe/VFbk/Actual",
+        "VMan": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VALEnThirdProbe/VMan/Actual",
+        "VOut": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/VALEnThirdProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnThirdProbe",
+      "tag_description_resolved": "Third probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "c6444729-56d5-4510-a365-f7dabcb2069c",
+      "mtp_object": "Sensor6",
+      "mtp_property": "measurementFirstProbe",
+      "path_prefix": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/measurementFirstProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/measurementFirstProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementFirstProbe",
+      "tag_description_resolved": "Probe - not connected",
+      "unit": "0.0",
+      "semantic_var": "measurement_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "c6444729-56d5-4510-a365-f7dabcb2069c",
+      "mtp_object": "Sensor6",
+      "mtp_property": "measurementSecondProbe",
+      "path_prefix": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/measurementSecondProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/measurementSecondProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementSecondProbe",
+      "tag_description_resolved": "Probe - not connected",
+      "unit": "0.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "c6444729-56d5-4510-a365-f7dabcb2069c",
+      "mtp_object": "Sensor6",
+      "mtp_property": "measurementThirdProbe",
+      "path_prefix": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/measurementThirdProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/measurementThirdProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementThirdProbe",
+      "tag_description_resolved": "Probe - not connected",
+      "unit": "0.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "c6444729-56d5-4510-a365-f7dabcb2069c",
+      "mtp_object": "Sensor6",
+      "mtp_property": "moduleIdentificationTrigger",
+      "path_prefix": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/moduleIdentificationTrigger",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/moduleIdentificationTrigger/VFbk/Actual",
+        "VMan": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/moduleIdentificationTrigger/VMan/Actual",
+        "VOut": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/moduleIdentificationTrigger/VOut/Actual"
+      },
+      "tag_name_resolved": "moduleIdentificationTrigger",
+      "tag_description_resolved": "Module Identification Trigger",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "c6444729-56d5-4510-a365-f7dabcb2069c",
+      "mtp_object": "Sensor6",
+      "mtp_property": "qualityIndicator",
+      "path_prefix": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/qualityIndicator",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/c6444729-56d5-4510-a365-f7dabcb2069c/mtp/objects/Sensor6/qualityIndicator/V/Actual"
+      },
+      "tag_name_resolved": "qualityIndicator",
+      "tag_description_resolved": "Quality Indicator",
+      "unit": "1342.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d119c456-717a-4aa2-af0a-1d6d41f69d69",
+      "mtp_object": "Sensor4",
+      "mtp_property": "VAHEnFirstProbe",
+      "path_prefix": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VAHEnFirstProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VAHEnFirstProbe/VFbk/Actual",
+        "VMan": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VAHEnFirstProbe/VMan/Actual",
+        "VOut": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VAHEnFirstProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnFirstProbe",
+      "tag_description_resolved": "First probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d119c456-717a-4aa2-af0a-1d6d41f69d69",
+      "mtp_object": "Sensor4",
+      "mtp_property": "VAHEnSecondProbe",
+      "path_prefix": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VAHEnSecondProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VAHEnSecondProbe/VFbk/Actual",
+        "VMan": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VAHEnSecondProbe/VMan/Actual",
+        "VOut": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VAHEnSecondProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnSecondProbe",
+      "tag_description_resolved": "Second probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d119c456-717a-4aa2-af0a-1d6d41f69d69",
+      "mtp_object": "Sensor4",
+      "mtp_property": "VAHEnThirdProbe",
+      "path_prefix": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VAHEnThirdProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VAHEnThirdProbe/VFbk/Actual",
+        "VMan": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VAHEnThirdProbe/VMan/Actual",
+        "VOut": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VAHEnThirdProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnThirdProbe",
+      "tag_description_resolved": "Third probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d119c456-717a-4aa2-af0a-1d6d41f69d69",
+      "mtp_object": "Sensor4",
+      "mtp_property": "VALEnFirstProbe",
+      "path_prefix": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VALEnFirstProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VALEnFirstProbe/VFbk/Actual",
+        "VMan": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VALEnFirstProbe/VMan/Actual",
+        "VOut": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VALEnFirstProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnFirstProbe",
+      "tag_description_resolved": "First probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d119c456-717a-4aa2-af0a-1d6d41f69d69",
+      "mtp_object": "Sensor4",
+      "mtp_property": "VALEnSecondProbe",
+      "path_prefix": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VALEnSecondProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VALEnSecondProbe/VFbk/Actual",
+        "VMan": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VALEnSecondProbe/VMan/Actual",
+        "VOut": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VALEnSecondProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnSecondProbe",
+      "tag_description_resolved": "Second probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d119c456-717a-4aa2-af0a-1d6d41f69d69",
+      "mtp_object": "Sensor4",
+      "mtp_property": "VALEnThirdProbe",
+      "path_prefix": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VALEnThirdProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VALEnThirdProbe/VFbk/Actual",
+        "VMan": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VALEnThirdProbe/VMan/Actual",
+        "VOut": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/VALEnThirdProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnThirdProbe",
+      "tag_description_resolved": "Third probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d119c456-717a-4aa2-af0a-1d6d41f69d69",
+      "mtp_object": "Sensor4",
+      "mtp_property": "measurementFirstProbe",
+      "path_prefix": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/measurementFirstProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/measurementFirstProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementFirstProbe",
+      "tag_description_resolved": "Probe - CO2",
+      "unit": "1558.0",
+      "semantic_var": "measurement_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d119c456-717a-4aa2-af0a-1d6d41f69d69",
+      "mtp_object": "Sensor4",
+      "mtp_property": "measurementSecondProbe",
+      "path_prefix": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/measurementSecondProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/measurementSecondProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementSecondProbe",
+      "tag_description_resolved": "Probe - Not supported",
+      "unit": "0.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d119c456-717a-4aa2-af0a-1d6d41f69d69",
+      "mtp_object": "Sensor4",
+      "mtp_property": "measurementThirdProbe",
+      "path_prefix": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/measurementThirdProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/measurementThirdProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementThirdProbe",
+      "tag_description_resolved": "Probe - T",
+      "unit": "1001.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d119c456-717a-4aa2-af0a-1d6d41f69d69",
+      "mtp_object": "Sensor4",
+      "mtp_property": "moduleIdentificationTrigger",
+      "path_prefix": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/moduleIdentificationTrigger",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/moduleIdentificationTrigger/VFbk/Actual",
+        "VMan": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/moduleIdentificationTrigger/VMan/Actual",
+        "VOut": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/moduleIdentificationTrigger/VOut/Actual"
+      },
+      "tag_name_resolved": "moduleIdentificationTrigger",
+      "tag_description_resolved": "Module Identification Trigger",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d119c456-717a-4aa2-af0a-1d6d41f69d69",
+      "mtp_object": "Sensor4",
+      "mtp_property": "qualityIndicator",
+      "path_prefix": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/qualityIndicator",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/d119c456-717a-4aa2-af0a-1d6d41f69d69/mtp/objects/Sensor4/qualityIndicator/V/Actual"
+      },
+      "tag_name_resolved": "qualityIndicator",
+      "tag_description_resolved": "Quality Indicator",
+      "unit": "1342.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d2304eda-30b4-41bc-a866-b39bdf7f4b90",
+      "mtp_object": "Agitator",
+      "mtp_property": "rpmAHEN",
+      "path_prefix": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/rpmAHEN",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/rpmAHEN/VFbk/Actual",
+        "VMan": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/rpmAHEN/VMan/Actual",
+        "VOut": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/rpmAHEN/VOut/Actual"
+      },
+      "tag_name_resolved": "rpmAHEN",
+      "tag_description_resolved": "Agitator Speed Alarm High Enable",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d2304eda-30b4-41bc-a866-b39bdf7f4b90",
+      "mtp_object": "Agitator",
+      "mtp_property": "rpmALEN",
+      "path_prefix": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/rpmALEN",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/rpmALEN/VFbk/Actual",
+        "VMan": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/rpmALEN/VMan/Actual",
+        "VOut": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/rpmALEN/VOut/Actual"
+      },
+      "tag_name_resolved": "rpmALEN",
+      "tag_description_resolved": "Agitator Speed Alarm Low Enable",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d2304eda-30b4-41bc-a866-b39bdf7f4b90",
+      "mtp_object": "Agitator",
+      "mtp_property": "temperature",
+      "path_prefix": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/temperature",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/temperature/V/Actual"
+      },
+      "tag_name_resolved": "temperature",
+      "tag_description_resolved": "Agitator Temperature",
+      "unit": "1001.0",
+      "semantic_var": "temperature_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d2304eda-30b4-41bc-a866-b39bdf7f4b90",
+      "mtp_object": "Agitator",
+      "mtp_property": "tmpAHEN",
+      "path_prefix": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/tmpAHEN",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/tmpAHEN/VFbk/Actual",
+        "VMan": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/tmpAHEN/VMan/Actual",
+        "VOut": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/tmpAHEN/VOut/Actual"
+      },
+      "tag_name_resolved": "tmpAHEN",
+      "tag_description_resolved": "Agitator Temperature Alarm High Enable",
+      "unit": null,
+      "semantic_var": "temperature_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d2304eda-30b4-41bc-a866-b39bdf7f4b90",
+      "mtp_object": "Agitator",
+      "mtp_property": "tmpALEN",
+      "path_prefix": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/tmpALEN",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/tmpALEN/VFbk/Actual",
+        "VMan": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/tmpALEN/VMan/Actual",
+        "VOut": "devices/d2304eda-30b4-41bc-a866-b39bdf7f4b90/mtp/objects/Agitator/tmpALEN/VOut/Actual"
+      },
+      "tag_name_resolved": "tmpALEN",
+      "tag_description_resolved": "Agitator Temperature Alarm Low Enable",
+      "unit": null,
+      "semantic_var": "temperature_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d57496a7-d1fb-4ece-ba31-dcfeda8753bc",
+      "mtp_object": "Sensor2",
+      "mtp_property": "VAHEnFirstProbe",
+      "path_prefix": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VAHEnFirstProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VAHEnFirstProbe/VFbk/Actual",
+        "VMan": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VAHEnFirstProbe/VMan/Actual",
+        "VOut": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VAHEnFirstProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnFirstProbe",
+      "tag_description_resolved": "First probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d57496a7-d1fb-4ece-ba31-dcfeda8753bc",
+      "mtp_object": "Sensor2",
+      "mtp_property": "VAHEnSecondProbe",
+      "path_prefix": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VAHEnSecondProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VAHEnSecondProbe/VFbk/Actual",
+        "VMan": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VAHEnSecondProbe/VMan/Actual",
+        "VOut": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VAHEnSecondProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnSecondProbe",
+      "tag_description_resolved": "Second probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d57496a7-d1fb-4ece-ba31-dcfeda8753bc",
+      "mtp_object": "Sensor2",
+      "mtp_property": "VAHEnThirdProbe",
+      "path_prefix": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VAHEnThirdProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VAHEnThirdProbe/VFbk/Actual",
+        "VMan": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VAHEnThirdProbe/VMan/Actual",
+        "VOut": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VAHEnThirdProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnThirdProbe",
+      "tag_description_resolved": "Third probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d57496a7-d1fb-4ece-ba31-dcfeda8753bc",
+      "mtp_object": "Sensor2",
+      "mtp_property": "VALEnFirstProbe",
+      "path_prefix": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VALEnFirstProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VALEnFirstProbe/VFbk/Actual",
+        "VMan": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VALEnFirstProbe/VMan/Actual",
+        "VOut": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VALEnFirstProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnFirstProbe",
+      "tag_description_resolved": "First probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d57496a7-d1fb-4ece-ba31-dcfeda8753bc",
+      "mtp_object": "Sensor2",
+      "mtp_property": "VALEnSecondProbe",
+      "path_prefix": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VALEnSecondProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VALEnSecondProbe/VFbk/Actual",
+        "VMan": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VALEnSecondProbe/VMan/Actual",
+        "VOut": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VALEnSecondProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnSecondProbe",
+      "tag_description_resolved": "Second probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d57496a7-d1fb-4ece-ba31-dcfeda8753bc",
+      "mtp_object": "Sensor2",
+      "mtp_property": "VALEnThirdProbe",
+      "path_prefix": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VALEnThirdProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VALEnThirdProbe/VFbk/Actual",
+        "VMan": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VALEnThirdProbe/VMan/Actual",
+        "VOut": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/VALEnThirdProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnThirdProbe",
+      "tag_description_resolved": "Third probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d57496a7-d1fb-4ece-ba31-dcfeda8753bc",
+      "mtp_object": "Sensor2",
+      "mtp_property": "measurementFirstProbe",
+      "path_prefix": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/measurementFirstProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/measurementFirstProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementFirstProbe",
+      "tag_description_resolved": "Probe - not connected",
+      "unit": "0.0",
+      "semantic_var": "measurement_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d57496a7-d1fb-4ece-ba31-dcfeda8753bc",
+      "mtp_object": "Sensor2",
+      "mtp_property": "measurementSecondProbe",
+      "path_prefix": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/measurementSecondProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/measurementSecondProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementSecondProbe",
+      "tag_description_resolved": "Probe - not connected",
+      "unit": "0.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d57496a7-d1fb-4ece-ba31-dcfeda8753bc",
+      "mtp_object": "Sensor2",
+      "mtp_property": "measurementThirdProbe",
+      "path_prefix": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/measurementThirdProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/measurementThirdProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementThirdProbe",
+      "tag_description_resolved": "Probe - not connected",
+      "unit": "0.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d57496a7-d1fb-4ece-ba31-dcfeda8753bc",
+      "mtp_object": "Sensor2",
+      "mtp_property": "moduleIdentificationTrigger",
+      "path_prefix": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/moduleIdentificationTrigger",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/moduleIdentificationTrigger/VFbk/Actual",
+        "VMan": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/moduleIdentificationTrigger/VMan/Actual",
+        "VOut": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/moduleIdentificationTrigger/VOut/Actual"
+      },
+      "tag_name_resolved": "moduleIdentificationTrigger",
+      "tag_description_resolved": "Module Identification Trigger",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "d57496a7-d1fb-4ece-ba31-dcfeda8753bc",
+      "mtp_object": "Sensor2",
+      "mtp_property": "qualityIndicator",
+      "path_prefix": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/qualityIndicator",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/d57496a7-d1fb-4ece-ba31-dcfeda8753bc/mtp/objects/Sensor2/qualityIndicator/V/Actual"
+      },
+      "tag_name_resolved": "qualityIndicator",
+      "tag_description_resolved": "Quality Indicator",
+      "unit": "1342.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "e43ea21d-3c09-4a55-abad-d0ae3fa74e5a",
+      "mtp_object": "Sensor3",
+      "mtp_property": "VAHEnFirstProbe",
+      "path_prefix": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VAHEnFirstProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VAHEnFirstProbe/VFbk/Actual",
+        "VMan": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VAHEnFirstProbe/VMan/Actual",
+        "VOut": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VAHEnFirstProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnFirstProbe",
+      "tag_description_resolved": "First probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "e43ea21d-3c09-4a55-abad-d0ae3fa74e5a",
+      "mtp_object": "Sensor3",
+      "mtp_property": "VAHEnSecondProbe",
+      "path_prefix": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VAHEnSecondProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VAHEnSecondProbe/VFbk/Actual",
+        "VMan": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VAHEnSecondProbe/VMan/Actual",
+        "VOut": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VAHEnSecondProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnSecondProbe",
+      "tag_description_resolved": "Second probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "e43ea21d-3c09-4a55-abad-d0ae3fa74e5a",
+      "mtp_object": "Sensor3",
+      "mtp_property": "VAHEnThirdProbe",
+      "path_prefix": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VAHEnThirdProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VAHEnThirdProbe/VFbk/Actual",
+        "VMan": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VAHEnThirdProbe/VMan/Actual",
+        "VOut": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VAHEnThirdProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VAHEnThirdProbe",
+      "tag_description_resolved": "Third probe alarm high",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "e43ea21d-3c09-4a55-abad-d0ae3fa74e5a",
+      "mtp_object": "Sensor3",
+      "mtp_property": "VALEnFirstProbe",
+      "path_prefix": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VALEnFirstProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VALEnFirstProbe/VFbk/Actual",
+        "VMan": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VALEnFirstProbe/VMan/Actual",
+        "VOut": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VALEnFirstProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnFirstProbe",
+      "tag_description_resolved": "First probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "e43ea21d-3c09-4a55-abad-d0ae3fa74e5a",
+      "mtp_object": "Sensor3",
+      "mtp_property": "VALEnSecondProbe",
+      "path_prefix": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VALEnSecondProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VALEnSecondProbe/VFbk/Actual",
+        "VMan": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VALEnSecondProbe/VMan/Actual",
+        "VOut": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VALEnSecondProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnSecondProbe",
+      "tag_description_resolved": "Second probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "e43ea21d-3c09-4a55-abad-d0ae3fa74e5a",
+      "mtp_object": "Sensor3",
+      "mtp_property": "VALEnThirdProbe",
+      "path_prefix": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VALEnThirdProbe",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VALEnThirdProbe/VFbk/Actual",
+        "VMan": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VALEnThirdProbe/VMan/Actual",
+        "VOut": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/VALEnThirdProbe/VOut/Actual"
+      },
+      "tag_name_resolved": "VALEnThirdProbe",
+      "tag_description_resolved": "Third probe alarm low",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "e43ea21d-3c09-4a55-abad-d0ae3fa74e5a",
+      "mtp_object": "Sensor3",
+      "mtp_property": "measurementFirstProbe",
+      "path_prefix": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/measurementFirstProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/measurementFirstProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementFirstProbe",
+      "tag_description_resolved": "Probe - TCD",
+      "unit": "0.0",
+      "semantic_var": "measurement_value",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "e43ea21d-3c09-4a55-abad-d0ae3fa74e5a",
+      "mtp_object": "Sensor3",
+      "mtp_property": "measurementSecondProbe",
+      "path_prefix": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/measurementSecondProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/measurementSecondProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementSecondProbe",
+      "tag_description_resolved": "Probe - Not supported",
+      "unit": "0.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "e43ea21d-3c09-4a55-abad-d0ae3fa74e5a",
+      "mtp_object": "Sensor3",
+      "mtp_property": "measurementThirdProbe",
+      "path_prefix": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/measurementThirdProbe",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/measurementThirdProbe/V/Actual"
+      },
+      "tag_name_resolved": "measurementThirdProbe",
+      "tag_description_resolved": "Probe - T",
+      "unit": "1001.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "e43ea21d-3c09-4a55-abad-d0ae3fa74e5a",
+      "mtp_object": "Sensor3",
+      "mtp_property": "moduleIdentificationTrigger",
+      "path_prefix": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/moduleIdentificationTrigger",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/moduleIdentificationTrigger/VFbk/Actual",
+        "VMan": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/moduleIdentificationTrigger/VMan/Actual",
+        "VOut": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/moduleIdentificationTrigger/VOut/Actual"
+      },
+      "tag_name_resolved": "moduleIdentificationTrigger",
+      "tag_description_resolved": "Module Identification Trigger",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "e43ea21d-3c09-4a55-abad-d0ae3fa74e5a",
+      "mtp_object": "Sensor3",
+      "mtp_property": "qualityIndicator",
+      "path_prefix": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/qualityIndicator",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/e43ea21d-3c09-4a55-abad-d0ae3fa74e5a/mtp/objects/Sensor3/qualityIndicator/V/Actual"
+      },
+      "tag_name_resolved": "qualityIndicator",
+      "tag_description_resolved": "Quality Indicator",
+      "unit": "1342.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "f67a5705-092b-48a0-a6ee-e538aadf5c55",
+      "mtp_object": "Sparger1",
+      "mtp_property": "gasTemp",
+      "path_prefix": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/gasTemp",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/gasTemp/V/Actual"
+      },
+      "tag_name_resolved": "gasTemp",
+      "tag_description_resolved": "Gas temperature",
+      "unit": "1001.0",
+      "semantic_var": "gas_temperature",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "f67a5705-092b-48a0-a6ee-e538aadf5c55",
+      "mtp_object": "Sparger1",
+      "mtp_property": "interlockSwitch",
+      "path_prefix": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/interlockSwitch",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/interlockSwitch/VFbk/Actual",
+        "VMan": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/interlockSwitch/VMan/Setpoint",
+        "VOut": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/interlockSwitch/VOut/Actual"
+      },
+      "tag_name_resolved": "interlockSwitch",
+      "tag_description_resolved": "Interlock switch",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "f67a5705-092b-48a0-a6ee-e538aadf5c55",
+      "mtp_object": "Sparger1",
+      "mtp_property": "moduleIdentificationTrigger",
+      "path_prefix": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/moduleIdentificationTrigger",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/moduleIdentificationTrigger/VFbk/Actual",
+        "VMan": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/moduleIdentificationTrigger/VMan/Actual",
+        "VOut": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/moduleIdentificationTrigger/VOut/Actual"
+      },
+      "tag_name_resolved": "moduleIdentificationTrigger",
+      "tag_description_resolved": "Module Identification Trigger",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "f67a5705-092b-48a0-a6ee-e538aadf5c55",
+      "mtp_object": "Sparger1",
+      "mtp_property": "protectReset",
+      "path_prefix": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/protectReset",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/protectReset/VFbk/Actual",
+        "VMan": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/protectReset/VMan/Actual",
+        "VOut": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/protectReset/VOut/Actual"
+      },
+      "tag_name_resolved": "protectReset",
+      "tag_description_resolved": "Protect reset",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "f67a5705-092b-48a0-a6ee-e538aadf5c55",
+      "mtp_object": "Sparger1",
+      "mtp_property": "resetTotalizer",
+      "path_prefix": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/resetTotalizer",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/resetTotalizer/VFbk/Actual",
+        "VMan": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/resetTotalizer/VMan/Actual",
+        "VOut": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/resetTotalizer/VOut/Actual"
+      },
+      "tag_name_resolved": "resetTotalizer",
+      "tag_description_resolved": "Reset totalizer",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "f67a5705-092b-48a0-a6ee-e538aadf5c55",
+      "mtp_object": "Sparger1",
+      "mtp_property": "safeposEnable",
+      "path_prefix": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/safeposEnable",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/safeposEnable/VFbk/Actual",
+        "VMan": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/safeposEnable/VMan/Actual",
+        "VOut": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/safeposEnable/VOut/Actual"
+      },
+      "tag_name_resolved": "safeposEnable",
+      "tag_description_resolved": "Safe position enable",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "f67a5705-092b-48a0-a6ee-e538aadf5c55",
+      "mtp_object": "Sparger1",
+      "mtp_property": "safeposSwitch",
+      "path_prefix": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/safeposSwitch",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/safeposSwitch/VFbk/Actual",
+        "VMan": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/safeposSwitch/VMan/Actual",
+        "VOut": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/safeposSwitch/VOut/Actual"
+      },
+      "tag_name_resolved": "safeposSwitch",
+      "tag_description_resolved": "Safe position switch",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "f67a5705-092b-48a0-a6ee-e538aadf5c55",
+      "mtp_object": "Sparger1",
+      "mtp_property": "tare",
+      "path_prefix": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/tare",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/tare/VFbk/Actual",
+        "VMan": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/tare/VMan/Actual",
+        "VOut": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/tare/VOut/Actual"
+      },
+      "tag_name_resolved": "tare",
+      "tag_description_resolved": "Tare",
+      "unit": null,
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "f67a5705-092b-48a0-a6ee-e538aadf5c55",
+      "mtp_object": "Sparger1",
+      "mtp_property": "totalizer",
+      "path_prefix": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/totalizer",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/totalizer/V/Actual"
+      },
+      "tag_name_resolved": "totalizer",
+      "tag_description_resolved": "Totalized flow value",
+      "unit": "1036.0",
+      "semantic_var": "totalized_flow",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "f67a5705-092b-48a0-a6ee-e538aadf5c55",
+      "mtp_object": "Sparger1",
+      "mtp_property": "userGasType",
+      "path_prefix": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/userGasType",
+      "signal_types": [
+        "VFbk",
+        "VMan",
+        "VOut"
+      ],
+      "influx_paths": {
+        "VFbk": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/userGasType/VFbk/Actual",
+        "VMan": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/userGasType/VMan/Actual",
+        "VOut": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/userGasType/VOut/Actual"
+      },
+      "tag_name_resolved": "userGasType",
+      "tag_description_resolved": "Change new gas type",
+      "unit": "0.0",
+      "semantic_var": "",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    },
+    {
+      "device_uuid": "f67a5705-092b-48a0-a6ee-e538aadf5c55",
+      "mtp_object": "Sparger1",
+      "mtp_property": "valveDrive",
+      "path_prefix": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/valveDrive",
+      "signal_types": [
+        "V"
+      ],
+      "influx_paths": {
+        "V": "devices/f67a5705-092b-48a0-a6ee-e538aadf5c55/mtp/objects/Sparger1/valveDrive/V/Actual"
+      },
+      "tag_name_resolved": "valveDrive",
+      "tag_description_resolved": "Valve opening %",
+      "unit": "1342.0",
+      "semantic_var": "valve_opening",
+      "level2_name": "",
+      "level3_name": "",
+      "functional_role": "",
+      "pnid_asset_id": ""
+    }
+  ],
+  "level2_targets": [
+    "Output/Alarms_01/DWord",
+    "Output/Bubble_01/o_A_Total",
+    "Output/Bubble_01/o_kLa",
+    "Output/Bubble_01/o_r_Bubble_01",
+    "Output/Mieszanie_01/i_Speed_SP",
+    "Output/Mieszanie_01/o_Speed_Fbk",
+    "Output/Mieszanie_01/o_mix_Level",
+    "Output/Mieszanie_01/o_usedEnergy",
+    "Output/Pompa_01/i_Speed_SP",
+    "Output/Pompa_01/o_Flow_Fbk",
+    "Output/Pompa_01/o_Speed_Fbk",
+    "Output/Pompa_01/o_kodBledu",
+    "Output/Pompa_01/o_poziom",
+    "Output/Pompa_02/i_Speed_SP",
+    "Output/Pompa_02/o_Flow_Fbk",
+    "Output/Pompa_02/o_Speed_Fbk",
+    "Output/SoftSensorpH_01/i_acid_flowrate",
+    "Output/SoftSensorpH_01/i_base_flowrate",
+    "Output/SoftSensorpH_01/o_pH_mod",
+    "Output/TransportCiepla_01/i_T_PV",
+    "Output/TransportCiepla_01/i_T_SP",
+    "Output/TransportCiepla_01/i_To",
+    "Output/TransportCiepla_01/o_T_mod",
+    "Output/TransportCiepla_01/o_Tj_mod",
+    "Output/TransportCiepla_01/o_k_est",
+    "Output/TransportCiepla_01/o_k_loss_est",
+    "Output/TransportO2_01/i_Qset",
+    "Output/TransportO2_01/i_compress_P",
+    "Output/TransportO2_01/i_frac_CO2",
+    "Output/TransportO2_01/i_frac_O2",
+    "Output/TransportO2_01/o_CO2_mod",
+    "Output/TransportO2_01/o_DO_mod",
+    "Output/TransportO2_01/o_DO_mod_CO2",
+    "Output/TransportO2_01/o_Flow_mod",
+    "Output/Zbiornik_01/i_elemDepth",
+    "Output/Zbiornik_01/i_elemDiameters",
+    "Output/Zbiornik_01/i_medVolume",
+    "Output/Zbiornik_01/o_medAir",
+    "Output/Zbiornik_01/o_medCoolant",
+    "Output/Zbiornik_01/o_medLevel"
+  ],
+  "level3_targets": [
+    "bubblegenerator/out_bubgen_a_total_m2",
+    "bubblegenerator/out_bubgen_kla_1s",
+    "bubblegenerator/out_bubgen_r_bubble_m",
+    "heatmodel/out_heatmodel_t_1001",
+    "heatmodel/out_heatmodel_time_1054",
+    "heatmodel/out_heatmodel_tj_1001",
+    "heatmodelregressor/out_heatmodelregressor_alpha_1082",
+    "heatmodelregressor/out_heatmodelregressor_error_1001",
+    "heatmodelregressor/out_heatmodelregressor_k_1200",
+    "heatmodelregressor/out_heatmodelregressor_kloss_1082",
+    "heatmodelregressor/out_heatmodelregressor_y_1001",
+    "manualinput/value",
+    "mixer/out_mixer_energy_consumption_w",
+    "mixer/out_mixer_mixing_level",
+    "mixer/out_mixer_model_angular_velocity_rads",
+    "mixer/out_mixer_rpm_setpoint",
+    "mixer/out_mixer_setpoint_angular_velocity_rads",
+    "mqttinputsignal/signal",
+    "oxygentransport/out_oxygentransport_co2_mgl",
+    "oxygentransport/out_oxygentransport_co2pct_pct",
+    "oxygentransport/out_oxygentransport_do_mgl",
+    "oxygentransport/out_oxygentransport_dopct_pct",
+    "oxygentransport/out_oxygentransport_ph_dls",
+    "oxygentransport/out_oxygentransport_qmodel_cm3s",
+    "oxygentransport/out_oxygentransport_qmodel_m3s",
+    "oxygentransport/out_oxygentransport_qset_dls",
+    "oxygentransport/out_oxygentransport_valvepos_dls",
+    "peristalticpump/out_peristalticpump_current_time_s",
+    "peristalticpump/out_peristalticpump_speed_rpm",
+    "peristalticpump/out_peristalticpump_torquemotor_nm",
+    "softsensorph/out_softsensorph_ph_est",
+    "tankgeometry/out_tankgeometry_airsurfacearea_1023",
+    "tankgeometry/out_tankgeometry_coolantsurfacearea_1023",
+    "tankgeometry/out_tankgeometry_mediumlevel_1010",
+    "tcumodel/out_tcumodel_mode_1001",
+    "tcumodel/out_tcumodel_pheater_1001",
+    "tcumodel/out_tcumodel_qcooling_1001",
+    "tcumodel/out_tcumodel_time_1054",
+    "tcumodel/out_tcumodel_tinternal_1001",
+    "tcumodel/out_tcumodel_tjacket_1001"
+  ]
+}
